@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "albums",
+  "info": {
+    "name": "Album",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "photos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "album-components.photo"
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "grid",
+        "story"
+      ],
+      "default": "story",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "location": {
+      "type": "string"
+    },
+    "allow_download": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    }
+  }
+}
