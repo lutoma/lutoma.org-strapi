@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_album_overview_groups",
+  "info": {
+    "name": "Group",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "entries": {
+      "type": "component",
+      "repeatable": true,
+      "component": "album-overview.entry"
+    }
+  }
+}

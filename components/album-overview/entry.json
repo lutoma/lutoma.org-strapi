@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_album_overview_entries",
+  "info": {
+    "name": "Entry",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "album": {
+      "model": "album"
+    },
+    "preview": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

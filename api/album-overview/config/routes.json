@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/album-overview",
+      "handler": "album-overview.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/album-overview",
+      "handler": "album-overview.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/album-overview",
+      "handler": "album-overview.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
