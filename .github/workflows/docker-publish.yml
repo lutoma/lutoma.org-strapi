@@ -11,7 +11,7 @@ on:
       - v*
 
 env:
-  IMAGE_NAME: lutoma.org
+  IMAGE_NAME: lutoma.org-strapi
 
 jobs:
   # Push image to GitHub Packages.
