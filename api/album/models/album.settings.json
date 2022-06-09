@@ -43,6 +43,12 @@
       "type": "boolean",
       "default": false,
       "required": false
+    },
+    "license": {
+      "type": "enumeration",
+      "enum": [
+        "ccby"
+      ]
     }
   }
 }
